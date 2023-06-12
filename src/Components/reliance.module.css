@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+#nav{
+    height: 90px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+#nav>article{
+    height: 90px;
+    width: 89%;
+    /* border: 1px solid blue; */
+    display: flex;
+}
+#nav>article>.logo{
+    height: 90px;
+    width: 30.5%;
+    /* border: 1px solid violet; */
+    display: flex;
+    align-items: center;
+}
+#nav>article>.logo>img{
+    width: 35.8%;
+}
+#nav>article>.menu{
+    height: 90px;
+    width: 36.7%;
+    /* border: 1px solid khaki;     */
+}
+#nav>article>.menu>ol{
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+}
+#nav>article>.menu>ol>li>a{
+    color: rgb(51,51,51);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.8px;
+}
+#nav>article>.emt{
+    height: 90px;
+    width: 2%;
+}
+#nav>article>.box{
+    height: 90px;
+    width: 29.7%;
+    /* border: 1px solid hotpink; */
+}
+#nav>article>.box>.box1{
+    width: 104%;
+    height: 41%;
+    /* border: 1px solid brown; */
+}
+section>article>.box>.box1>ol{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+section>article>.box>.box1>ol>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.4px;
+    
+}
+section>article>.box>.box1>ol>.vis{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 38px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    letter-spacing: 1.1px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+section>article>.box>.box2{
+    /* border: 0.1px solid gold; */
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section>article>.box>.box2>.s{
+    height: 33.8px;
+    width: 75%; 
+    border-radius: 50px; 
+    border: 0.1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,253,237);
+}
+section>article>.box>.box2>.s>input{
+    width: 75%;
+    border: none;
+    font-size: 14px;
+    background-color: rgb(255,253,237);
+}
+section>article>.box>.box2>.h{
+    background-color: rgb(43,64,82);
+    height: 33.8px;
+    width: 33.8px;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+section>article>.box>.box2>.b{
+    background-color: rgb(43,64,82);
+    height: 33.8px;
+    width: 33.8px;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+
+

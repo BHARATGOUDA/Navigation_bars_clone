@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#box{
+    background-color: rgb(19,26,40);
+    height:75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#box>article{
+    height: 79px;
+    width: 91%;
+    /* border: 2PX solid red; */
+    display: flex;
+}
+#box>article>.bar{
+    display: flex;
+    align-items: center;
+    height: 79px;
+    width: 3%;
+    color: rgb(208,209,212);
+    font-size: 20px;
+}
+#box>article>.logo{
+    height: 79px;
+    width: 11%;
+    display: flex;
+    /* border: 2PX solid red; */
+
+}
+#box>article>.logo>img{
+    width: 90%;
+    height: 70px;
+
+}
+section>article>.menu{
+    height: 82px;
+    width: 26%;
+    /* border: 2px solid red; */
+}
+section>article>.menu>ol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;  
+    height: 78px; 
+}           
+section>article>.menu>ol>li>a{
+    text-decoration: none;
+    font-size: 17px;
+    color:rgb(208,209,212);
+}
+section>article>.menu>ol>li>.kids{
+   color:rgb(255,170,5);
+   font-weight: bolder;
+   font-size: 20px;
+}
+section>article>.ebox{
+    height: 79px;
+    width: 27%;
+    /* border: 2px solid red; */
+
+}
+section>article>.search{
+    height: 79px;
+    width: 19%;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+
+}
+section>article>.search>.searchbox{
+    width: 100%;
+    height: 28px;
+    border-bottom: 1px solid rgb(208,209,212);
+}
+section>article>.search>.searchbox>input{
+    width: 95%;
+    height: 27px;
+    background-color: rgb(18,25,38);
+    border-style: none; 
+    font-size: 15px;
+    color: rgb(208,209,212); 
+}
+section>article>.search>.searchbox>i
+{
+    color:  rgb(208,207,201);
+    font-size: 11px;
+}
+section>article>.sub{
+    height: 79px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+
+}
+section>article>.sub>.isub{
+    height: 24px;
+    width: 74%;
+    background-color: rgb(31,128,224);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+section>article>.login{
+    height: 75;
+    width: 3%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(208,209,212);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+    
+
